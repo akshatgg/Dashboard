@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="./style.css" />
+  <body>
+      <div class="container">
+          <div class="small-box">
+              <div class="smaller-part">
+                  <h1 class="head">Administrator</h1>
+                </div>
+                <div class="larger-part">
+                    <div class="sidebar" onclick="Reimbursement()">Staff Reimbursement</div>
+                    <div class="sidebar"  onclick="Payment()">Vendor Payments</div>
+                    <div class="sidebar">Calendar</div>
+                    <div class="sidebar">Notification</div>
+                </div>
+            </div>
+            <div class="large-box" id="staff" >
+                <div class="smaller-part-2">
+                    <div>
+                        <div class="title">Staff Reimbursement</div>
+                        <div class="cont">Show Data Over The Last30 Days</div>
+
+
+
+                    <div class="buttons">
+                        <div class="searching">
+                            <input class="searchs" placeholder="Search Employee" />
+                            <input class="search" placeholder="Search Type"   />
+                            <input class="search" placeholder="Search Date"   />
+                            <button class="filter">Filter</button>
+                        </div>
+
+                        <div class="time">
+                             <button class="btsr">Select Weekly</button>
+                             <button class="btsr">Select Month</button>
+                        </div>
+                    </div>
+
+
+                    </div>
+                </div>
+                <div class="larger-part-2">
+                    
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Amount</th>
+                                <th>Type</th>
+                                <th>Employee Name</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                                <th>File Attached</th>
+                            </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows -->
+                    <tr>
+                        <td>Date 1</td>
+                        <td>Amount 1</td>
+                        <td>Type 1</td>
+                        <td>Employee Name 1</td>
+                        <td>Status 1</td>
+                        <td>Action 1</td>
+                        <td>File Attached 1</td>
+                    </tr>
+                    <tr>
+                        <td>Date 1</td>
+                        <td>Amount 1</td>
+                        <td>Type 1</td>
+                        <td>Employee Name 1</td>
+                        <td>Status 1</td>
+                        <td>Action 1</td>
+                        <td>File Attached 1</td>
+                    </tr>
+                    <tr>
+                        <td>Date 1</td>
+                        <td>Amount 1</td>
+                        <td>Type 1</td>
+                        <td>Employee Name 1</td>
+                        <td>Status 1</td>
+                        <td>Action 1</td>
+                        <td>File Attached 1</td>
+                    </tr>
+                    <tr>
+                        <td>Date 1</td>
+                        <td>Amount 1</td>
+                        <td>Type 1</td>
+                        <td>Employee Name 1</td>
+                        <td>Status 1</td>
+                        <td>Action 1</td>
+                        <td>File Attached 1</td>
+                    </tr>
+                    <tr>
+                        <td>Date 1</td>
+                        <td>Amount 1</td>
+                        <td>Type 1</td>
+                        <td>Employee Name 1</td>
+                        <td>Status 1</td>
+                        <td>Action 1</td>
+                        <td>File Attached 1</td>
+                    </tr>
+                    <tr>
+                        <td>Date 1</td>
+                        <td>Amount 1</td>
+                        <td>Type 1</td>
+                        <td>Employee Name 1</td>
+                        <td>Status 1</td>
+                        <td>Action 1</td>
+                        <td>File Attached 1</td>
+                    </tr>
+                    <tr>
+                        <td>Date 1</td>
+                        <td>Amount 1</td>
+                        <td>Type 1</td>
+                        <td>Employee Name 1</td>
+                        <td>Status 1</td>
+                        <td>Action 1</td>
+                        <td>File Attached 1</td>
+                    </tr>
+                    <tr>
+                        <td>Date 1</td>
+                        <td>Amount 1</td>
+                        <td>Type 1</td>
+                        <td>Employee Name 1</td>
+                        <td>Status 1</td>
+                        <td>Action 1</td>
+                        <td>File Attached 1</td>
+                    </tr>
+                    <tr>
+                        <td>Date 1</td>
+                        <td>Amount 1</td>
+                        <td>Type 1</td>
+                        <td>Employee Name 1</td>
+                        <td>Status 1</td>
+                        <td>Action 1</td>
+                        <td>File Attached 1</td>
+                    </tr>
+                  
+                  
+                   
+                </tbody>
+            </table>
+
+            
+            
+                </div>
+
+            </div>
+
+            <div class="large-box " id="vendor">
+                <div class="smaller-part-2">
+                    <div>
+                        <div class="title">Vendor Payment</div>
+                        <div class="cont">Show Data Over The Last30 Days</div>
+                        <div class="buttons">
+                            <div class="searching">
+                                <input class="searchs" placeholder="Search Employee" />
+                                <input class="search" placeholder="Search Type"   />
+                                <input class="search" placeholder="Search Date"   />
+                                <button class="filter">Filter</button>
+                            </div>
+    
+                            <div class="time">
+                                 <button class="btsr">Select Weekly</button>
+                                 <button class="btsr">Select Month</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="larger-part-2">
+                    
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Amount</th>
+                                <th>Type</th>
+                                <th>Employee Name</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                                <th>File Attached</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows -->
+                            <tr>
+                                <td>Date 2</td>
+                                <td>Amount 2</td>
+                                <td>Type 2</td>
+                                <td>Employee Name 2</td>
+                                <td>Status 2</td>
+                                <td>Action 2</td>
+                                <td>File Attached 2</td>
+                            </tr>
+                            <tr>
+                                <td>Date 2</td>
+                                <td>Amount 2</td>
+                                <td>Type 2</td>
+                                <td>Employee Name 2</td>
+                                <td>Status 2</td>
+                                <td>Action 2</td>
+                                <td>File Attached 2</td>
+                            </tr>
+                            <tr>
+                                <td>Date 2</td>
+                                <td>Amount 2</td>
+                                <td>Type 2</td>
+                                <td>Employee Name 2</td>
+                                <td>Status 2</td>
+                                <td>Action 2</td>
+                                <td>File Attached 2</td>
+                            </tr>
+                            <tr>
+                                <td>Date 2</td>
+                                <td>Amount 2</td>
+                                <td>Type 2</td>
+                                <td>Employee Name 2</td>
+                                <td>Status 2</td>
+                                <td>Action 2</td>
+                                <td>File Attached 2</td>
+                            </tr>
+                            <tr>
+                                <td>Date 2</td>
+                                <td>Amount 2</td>
+                                <td>Type 2</td>
+                                <td>Employee Name 2</td>
+                                <td>Status 2</td>
+                                <td>Action 2</td>
+                                <td>File Attached 2</td>
+                            </tr>
+                            <tr>
+                                <td>Date 2</td>
+                                <td>Amount 2</td>
+                                <td>Type 2</td>
+                                <td>Employee Name 2</td>
+                                <td>Status 2</td>
+                                <td>Action 2</td>
+                                <td>File Attached 2</td>
+                            </tr>
+                            <tr>
+                                <td>Date 2</td>
+                                <td>Amount 2</td>
+                                <td>Type 2</td>
+                                <td>Employee Name 2</td>
+                                <td>Status 2</td>
+                                <td>Action 2</td>
+                                <td>File Attached 2</td>
+                            </tr>
+                            <tr>
+                                <td>Date 2</td>
+                                <td>Amount 2</td>
+                                <td>Type 2</td>
+                                <td>Employee Name 2</td>
+                                <td>Status 2</td>
+                                <td>Action 2</td>
+                                <td>File Attached 2</td>
+                            </tr>
+                            <tr>
+                                <td>Date 2</td>
+                                <td>Amount 2</td>
+                                <td>Type 2</td>
+                                <td>Employee Name 2</td>
+                                <td>Status 2</td>
+                                <td>Action 2</td>
+                                <td>File Attached 2</td>
+                            </tr>
+                            <tr>
+                                <td>Date 2</td>
+                                <td>Amount 2</td>
+                                <td>Type 2</td>
+                                <td>Employee Name 2</td>
+                                <td>Status 2</td>
+                                <td>Action 2</td>
+                                <td>File Attached 2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+            
+            
+                </div>
+
+            </div>
+
+  
+    </div>
+  <script src="./script.js"></script>
+      </body>
+
+</html>
