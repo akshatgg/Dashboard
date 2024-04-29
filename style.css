@@ -16,7 +16,7 @@ body {
 }
 
 .head {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .smaller-part {
@@ -124,7 +124,7 @@ th {
   margin-left: 20px;
 }
 
-.head {
+.heads {
   display: flex;
   justify-content: center;
 }
