@@ -123,3 +123,15 @@ th {
   font-size: 16px;
   margin-left: 20px;
 }
+
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+
+.sidebar.active {
+  border-left: 5px solid #fcfafa; 
+  padding-left: 10px; 
+  background-color: #dad6d6;
+}
